@@ -23,6 +23,8 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
           <li>Variável Pública: {process.env.NEXT_PUBLIC_VARIAVEL_PUBLICA}</li>
           <li>Variável Server: {process.env.VARIAVEL_SERVER}</li>
+          <li>NODE_ENV: {process.env.NODE_ENV}</li>
+          <li>DEPLOY_TIMESTAMP: {process.env.DEPLOY_TIMESTAMP}</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
