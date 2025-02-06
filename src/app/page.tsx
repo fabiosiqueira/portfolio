@@ -21,6 +21,8 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
+          <li>Variável Pública: {process.env.NEXT_PUBLIC_VARIAVEL_PUBLICA}</li>
+          <li>Variável Server: {process.env.VARIAVEL_SERVER}</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
